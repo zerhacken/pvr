@@ -76,7 +76,7 @@ void Image::setSize(const size_t width, const size_t height)
   
   ImageSpec spec(width, height, 4, TypeDesc::FLOAT);
   spec.attribute("oiio:ColorSpace", "Linear");
-  m_buf.alloc(spec);
+  m_buf.reset(spec);
 }
   
 //----------------------------------------------------------------------------//
@@ -150,7 +150,7 @@ void Image::write(const std::string &filename, Channels channels) const
       }
     }
     
-    buf.save(filename);
+    buf.write(filename);
 
   } else {
 
@@ -165,7 +165,7 @@ void Image::write(const std::string &filename, Channels channels) const
       }
     }
     
-    buf.save(filename);
+    buf.write(filename);
 
   }
 
