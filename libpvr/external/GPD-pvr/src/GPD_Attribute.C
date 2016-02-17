@@ -107,7 +107,6 @@ int
 GPD_Attribute::addIndex(const char *str)
 {
     int		 i;
-    char	**newarray;
 
     i = getIndex(str);
     if (i >= 0) return i;	// Already present, don't need to add.

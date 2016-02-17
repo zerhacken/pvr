@@ -14,7 +14,7 @@ set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake/Modules)
 ##############################################################################
 # Dependencies
 FIND_PACKAGE( HDF5 REQUIRED)
-FIND_PACKAGE( Boost COMPONENTS thread REQUIRED)
+FIND_PACKAGE( Boost COMPONENTS thread system python REQUIRED)
 FIND_PACKAGE( Imath REQUIRED)
 FIND_PACKAGE( FIELD3D REQUIRED)
 FIND_PACKAGE( OpenImageIO REQUIRED)

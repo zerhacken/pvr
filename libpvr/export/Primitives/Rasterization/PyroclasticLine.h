@@ -31,7 +31,7 @@
 //----------------------------------------------------------------------------//
 
 #ifndef __INCLUDED_PVR_RASTERIZATION_PYROCLASTICLINE_H__
-#define __INCLUDED_PVR_RASTERIZATOPM_PYROCLASTICLINE_H__
+#define __INCLUDED_PVR_RASTERIZATION_PYROCLASTICLINE_H__
 
 //----------------------------------------------------------------------------//
 // Includes

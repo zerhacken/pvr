@@ -36,6 +36,7 @@
 
 #include <pvr/Math.h>
 
+#define BOOST_PYTHON_STATIC_LIB
 #include <boost/python.hpp>
 //----------------------------------------------------------------------------//
 // Namespaces

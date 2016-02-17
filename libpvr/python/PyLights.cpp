@@ -31,7 +31,7 @@
 #include <Python.h>
 
 // System includes
-
+#define BOOST_PYTHON_STATIC_LIB
 #include <boost/python.hpp>
 
 // Library includes

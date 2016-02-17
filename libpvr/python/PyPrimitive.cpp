@@ -38,6 +38,7 @@
 
 #include <boost/shared_ptr.hpp>
 
+#define BOOST_PYTHON_STATIC_LIB
 #include <boost/python.hpp>
 #include <boost/python/dict.hpp>
 #include <boost/python/list.hpp>

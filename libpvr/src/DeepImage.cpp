@@ -212,7 +212,6 @@ Util::ColorCurve::Ptr makeFixedSample(Util::ColorCurve::CPtr curve,
   using namespace Math;
 
   typedef ColorCurve::SampleVec SampleVec;
-  typedef SampleVec::const_iterator CIter;
   
   const ColorCurve::SampleVec &samples = curve->samples();
 

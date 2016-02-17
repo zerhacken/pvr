@@ -17,6 +17,7 @@
 
 #include <boost/shared_ptr.hpp>
 
+#define BOOST_PYTHON_STATIC_LIB
 #include <boost/python.hpp>
 #include <boost/python/reference_existing_object.hpp>
 #include <boost/python/copy_const_reference.hpp>

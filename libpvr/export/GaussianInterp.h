@@ -73,7 +73,7 @@ class GaussianFieldInterp : public Field3D::FieldInterp<Data_T>
     return "GaussianFieldInterp";
   }
 
-  static const char* classType()
+  static const char* staticClassType()
   {
     return class_type::ms_classType.name();
   }
